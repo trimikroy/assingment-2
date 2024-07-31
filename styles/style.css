@@ -1,36 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
 
 
 *{
     margin: 0;
+   
 }
 body{
     font-family: Inter;
     color: white;
     background-color: black;
 }
+/* default style */
 
+.primary-btn{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: white;
+    padding: 16px 40px 16px 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.secondery-btn{
+    border-radius: 42px;
+    background: rgb(5, 4, 4);
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    
+    color: white;
+    padding: 16px 40px 16px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+}
 
 
 /* header section style navbar */
 .header-section{
     background: linear-gradient(180.00deg, rgba(44, 44, 44, 0.448),rgba(119, 119, 119, 0) 100%);
     height: 600px;
-    border: 3px solid rgb(215, 27, 27);
+    /* border: 3px solid rgb(215, 27, 27); */
+   
 }
 .navigation{
     display: flex;
     justify-content: space-between;
     /* border: 1px solid red; */
-    margin: 40px 150px 0 150px;
+    margin:0 150px 0 150px;
     align-items: center;
+   
 }
 .nav-options ul{
+    margin-top: 40px;
     display: flex;
     gap: 50px;
     /* justify-content: space-around; */
     /* margin-right: 20px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.255);
     border-radius: 39px;
@@ -42,7 +70,8 @@ body{
     font-style: italic;
     color: rgb(230, 83, 60);
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
+    margin-top: 40px;
    
 
 }
@@ -74,9 +103,110 @@ body{
 
 /* header content style start */
 
+.header-content{
+    display: flex ;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    gap: 80px;
+}
+.header-content-1{
+    width: 50%;
+    /* border: 1px solid red; */
+    align-items: center;
+   
+   
+}
+.shape{
+    font-family: "Playwrite DK Loopet", cursive;
+    font-weight: 50px;
+}
+.header-content-1 h1{
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: left;
+    margin-top: 30px;
+}
+.header-content-1 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.header-img{
+    background-image: url("../images/Images 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50%;
+    height: 500px;
+    /* border: 1px solid red; */
 
+    
+}
+.card-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    gap: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    width: 180px;
+    height: 90px;
+    margin-top: 380px;
+   
+    
+}
+.card-img-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    gap: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    width: 180px;
+    height: 90px;
+    margin-top: -350px;
+    margin-left: 300px;
+   
+    
+}
 
-
+.card-img h2{
+    font-size: 1.5rem;
+    text-align: left;
+    
+}
+.card-img p{
+    font-size: 12px;
+    color: rgba(239, 237, 232, 0.65);
+   
+}
+.card-img-2 h2{
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: -50px;
+}
+.card-img-2 p{
+    font-size: 12px;
+    color: rgba(239, 237, 232, 0.65);
+}
 
 
 /* header content style end */
