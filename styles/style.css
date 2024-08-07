@@ -227,7 +227,10 @@ body{
     /* border: 2px solid red; */
     width: 80%;
     height: 500px;
-    margin: 80px auto;
+    margin: 0px auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    /* margin-bottom: 50px; */
     padding: 0px;
 }
 .habit-details{
@@ -289,3 +292,66 @@ body{
 }
 
 /* habit list style end */
+
+
+/* run extra style start */
+
+
+.run-extra{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 18px;
+
+    background: rgb(34, 34, 34);
+}
+
+.run-content{
+    width: 40%;
+    /* border: 1px solid red; */
+    padding: 50px;
+
+
+}
+.run-content h1{
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+.run-content p{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 18px;
+    
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/* .run-images{
+    background-image: url("../images/run.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+  
+} */
+
+.run-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+.run{
+    width: 300px;
+    height: 250px;
+    border-radius: 18px;
+    
+}
+
+            
