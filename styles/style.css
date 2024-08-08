@@ -432,6 +432,12 @@ td{
     grid-column-gap: 10px;
     /* border: 1px solid red; */
     width: 500px;
+    /* position: static; */
+    
+}
+.calculate-your-bmi button {
+
+    margin-top: 20px;
 }
 .bmi-contain h2{
     font-size: 24px;
@@ -473,14 +479,146 @@ td{
     user-select: none;
 }
 
-.next-section{
-    border: 1px solid red;
+
+
+/* meet our teem section start */
+
+.meet-details{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.meet-details h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+
+
+}
+.meet-details p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.meet-our-team{
     width: 80%;
-    height: 300px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.trainer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:    20px;
+    grid-column-gap: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+}
+
+#trainer-1{
+    width: 250px;
+    height: 200px;
+    background-image:url("../images/trainer1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    background-blend-mode:overlay;
+
+}
+#trainer-2{
+    width: 250px;
+    height: 200px;
+    background-image: url("../images/trainer2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+   
     
 
 }
+#trainer-3{
+    width: 250px;
+    height: 200px;
+    background-image:  url("../images/trainer3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    
+
+}
+#trainer-4{
+    width: 250px;
+    height: 200px;
+    background-image:  url("../images/trainer4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    
+
+}
+#trainer-5{
+    width: 250px;
+    height: 200px;
+    background-image:  url("../images/trainer5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    
+
+}
+#trainer-6{
+    width: 250px;
+    height: 200px;
+    background-image:  url("../images/trainer6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    
+
+}
+.trainer >h3{
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.trainer >p{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+}
+/* meet our teem section end */
 
 
 
+
+
+
+
+
+
+
+footer{
+    border: 1px solid red;
+    width: 100%;
+    height: 400px;
+}
