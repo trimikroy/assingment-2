@@ -493,16 +493,7 @@ body{
     margin-top: 10px;
     margin-bottom: 30px;
 }
-/* .run-images{
-    background-image: url("../images/run.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 400px;
-    height: 300px;
-    margin: 20px;
-  
-} */
+
 
 .run-images{
     display: flex;
@@ -521,6 +512,61 @@ body{
   
    
 }
+.primary-btn-run{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: white;
+    padding: 16px 40px 16px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+}
+
+ /* run extra style end */
+    @media screen and (max-width:576px) {
+        .run-extra{
+            display: flex;
+            flex-direction: column;
+            /* border: 1px solid red; */
+            margin-top: 400px;
+        }
+        .run-content{
+            width: 65%;
+            /* border: 1px solid red; */
+            
+        }
+        .run-content h1{
+            font-size: 1.5rem;
+            margin-left: -20px;
+        }
+        .run-content p{
+            width: 120%;
+            font-size: 12px;
+            /* border: 1px solid red; */
+            margin-left: -20px;
+        }
+        .run-images{
+            width: 50%;
+            /* height: 50%; */
+            /* border: 1px solid red; */
+            /* margin-left: 80px; */
+            
+        }
+        .run{
+            width: 150%;
+            height: 80%;
+            margin-left: 180px;
+            object-fit:cover;
+
+            
+        }
+        .primary-btn-run{
+            width: 100%;
+        }
+    }
+
 
 
  /* bmi section style start */
