@@ -436,7 +436,7 @@ body{
     }
     .skill{
         /* border: 1px solid red; */
-       
+        margin-top: -20px;
     }
     .habit-details h1{
         font-size: 1.5rem;
