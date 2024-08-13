@@ -539,13 +539,13 @@ body{
         }
         .run-content h1{
             font-size: 1.5rem;
-            margin-left: -20px;
+            /* margin-left: -10px; */
         }
         .run-content p{
             width: 120%;
             font-size: 12px;
             /* border: 1px solid red; */
-            margin-left: -20px;
+            /* margin-left: -10px; */
         }
         .run-images{
             width: 50%;
