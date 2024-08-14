@@ -121,9 +121,7 @@ body{
 
 /* line brake navbar */
 @media screen and (max-width:576px) {
-    .navigation{
-        /* border: 1px solid red; */
-    }
+   
     .logo{
         font-size: 2rem;
         margin-left: 10px;
@@ -208,7 +206,7 @@ body{
 }
 .card-img{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: right;
@@ -223,6 +221,23 @@ body{
     height: 90px;
     margin-top: 380px;
    
+    
+}
+.play-button{
+    width: 40px ;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid red;
+}
+.triangle-right {
+	width: 0px;
+	height: 0px;
+    margin-top: 5px;
+    margin-left: 12px;
+	border-top: 15px solid transparent;
+	border-left: 20px solid #f2f0f0;
+	border-bottom: 15px solid transparent;
     
 }
 .card-img-2{
@@ -276,15 +291,16 @@ body{
 
 /* responsive */
 @media screen and (max-width:576px) {
-        .body{
+        /* .body{
             width: 100%;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-        }
+        } */
         .header-content{
             display: flex;
             flex-direction: column;
+           
         }
         .header-content-1{
             width:100% ;
@@ -302,10 +318,11 @@ body{
             height: 80px;
         }
         .card-img-2{
-            display: none;
+            
             width: 140px;
             height: 80px;
-            margin-left: 190px;
+            margin-left: 200px;
+          
             /* margin-right: 0px; */
         }
 
@@ -424,6 +441,7 @@ body{
        display: flex;
        flex-direction: column;
        margin-top: 1000px;
+       /* border: 1px solid red; */
     }
     .habit-details{
         /* border: 1px solid red; */
@@ -551,7 +569,8 @@ body{
             width: 50%;
             /* height: 50%; */
             /* border: 1px solid red; */
-            /* margin-left: 80px; */
+            /* margin-left: 30px; */
+            
             
         }
         .run{
@@ -559,7 +578,7 @@ body{
             height: 80%;
             margin-left: 180px;
             object-fit:cover;
-
+            margin-bottom: 20px;
             
         }
         .primary-btn-run{
@@ -740,10 +759,16 @@ body{
             display: flex;
             flex-direction: column;
             height: auto;
+            /* border: 1px solid red; */
         }
         .pricing-cards{
             display: flex;
             flex-direction: column;
+            /* border: 1px solid red; */
+        }
+        .pricing-cards-1,.pricing-cards-2,.pricing-cards-3{
+            /* border: 1px solid red; */
+            margin-left: 30px;
         }
     }        
 
@@ -876,10 +901,11 @@ td{
         flex-direction: column;
         width: 100%;
         height: auto;
+        /* border: 1px solid red; */
     }
 
     .mbi-calculator-chart{
-        margin-left: 50px;
+        margin-left: 30px;
         /* margin-right:50px ; */
         width: 90%;
         /* border: 1px solid red;  */
@@ -1066,6 +1092,7 @@ td{
     .meet-our-team{
         display: flex;
         flex-direction: column;
+        /* border: 1px solid red; */
     }
     .meet-details{
         width: 100%;
@@ -1182,10 +1209,12 @@ footer{
         display: flex;
         flex-direction: column;
         height: 100%;
+        /* border: 1px solid red; */
     }
     .footer-section{
         display: flex;
         flex-direction: column;
+        /* border: 1px solid red; */
     }
     .footer-log-details{
         width: 90%;
