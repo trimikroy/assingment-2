@@ -601,6 +601,153 @@ body{
     }
 }
 
+/* our plan section style start */
+    .our-plan-section-pricing{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        height: 600px;
+        /* border: 1px solid red; */
+    }
+    .pricing-cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        /* border: 1px solid red; */
+        width: 65%;
+        height: 70%;
+        /* margin: 20px 0; */
+    }
+    .our-plan{
+        /* border: 1px solid red; */
+        text-align: center;
+        width: 50%;
+        /* margin: 20px 0; */
+        padding: 20px 0;
+        margin-top: 30px;
+    }
+    .our-plan p{
+        font-size: 14px;
+        font-weight: 700;
+        color: rgb(230, 83, 60);
+    }
+    .our-plan h3{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .pricing-cards-1 ,.pricing-cards-2,.pricing-cards-3{
+        border: 1px solid  rgba(255, 255, 255, 0.5);
+        margin-top: 20px;
+        border-radius: 8px;
+        width: 250px;
+        height: 400px;
+        text-align: center;
+    }
+  
+    /* .pricing-cards-1  */
+    .pricing-cards-1 h2{
+        font-size: 20px;
+        font-weight: 700;
+        margin: 20px 0;
+    }
+    .pricing-cards-1 h1{
+        font-size: 40px;
+        font-weight: 800;
+        color:rgb(230, 83, 60) ;
+    }
+    .pricing-cards-1 h5{
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        margin-top: -5px;
+        margin-bottom: 20px;
+    }
+    .pricing-cards-1 p{
+        font-size: 12px ;
+        font-weight: 300;
+        margin: 10px 0;
+        color: rgba(255, 255, 255, 0.794);
+    }
+    /* .pricing-cards-2 */
+    .pricing-cards-2 h2{
+        font-size: 20px;
+        font-weight: 700;
+        margin: 20px 0;
+    }
+    .pricing-cards-2 h1{
+        font-size: 40px;
+        font-weight: 800;
+        color:rgb(230, 83, 60) ;
+    }
+    .pricing-cards-2 h5{
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        margin-top: -5px;
+        margin-bottom: 20px;
+    }
+    .pricing-cards-2 p{
+        font-size: 12px ;
+        font-weight: 300;
+        margin: 10px 0;
+        color: rgba(255, 255, 255, 0.794);
+    }
+    /* .pricing-cards-3 */
+
+    .pricing-cards-3 h2{
+        font-size: 20px;
+        font-weight: 700;
+        margin: 20px 0;
+    }
+    .pricing-cards-3 h1{
+        font-size: 40px;
+        font-weight: 800;
+        color:rgb(230, 83, 60) ;
+    }
+    .pricing-cards-3 h5{
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        margin-top: -5px;
+        margin-bottom: 20px;
+    }
+    .pricing-cards-3 p{
+        font-size: 12px ;
+        font-weight: 300;
+        margin: 10px 0;
+        color: rgba(255, 255, 255, 0.794);
+    }
+
+
+    /* pricing-card-btn */
+    .pricing-card-btn{
+        font-size: 16px;
+        width: 200px;
+        margin-top: 40px;
+        padding: 8px 0;
+        color: white;
+        background-color:rgb(230, 83, 60) ;
+        border-radius: 3px;
+        border: none;
+    }
+
+/* our plan section style end */
+    @media screen and (max-width:576px) {
+        .our-plan-section-pricing{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+        }
+        .pricing-cards{
+            display: flex;
+            flex-direction: column;
+        }
+    }        
+
+
 /* bmi contant section styel */
 
 .bmi-calculation{
@@ -956,6 +1103,7 @@ footer{
 }
 .footer-section{
     display: flex;
+    flex-direction: row;
     /* border: 1px solid red; */
     width: 80%;
     margin: 0 auto;
