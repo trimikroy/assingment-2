@@ -660,10 +660,12 @@ body{
     .pricing-cards-1 ,.pricing-cards-2,.pricing-cards-3{
         border: 1px solid  rgba(255, 255, 255, 0.5);
         margin-top: 20px;
+        /* margin-right: -50px; */
         border-radius: 8px;
         width: 250px;
         height: 400px;
         text-align: center;
+        /* border: 1px solid red; */
     }
   
     /* .pricing-cards-1  */
@@ -768,7 +770,7 @@ body{
         }
         .pricing-cards-1,.pricing-cards-2,.pricing-cards-3{
             /* border: 1px solid red; */
-            margin-left: 30px;
+            margin-left: 15px;
         }
     }        
 
