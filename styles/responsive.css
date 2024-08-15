@@ -1,0 +1,311 @@
+
+
+@media screen and (max-width:576px) {
+   
+    .logo{
+        font-size: 2rem;
+        margin-left: 10px;
+        font-weight: 700;
+    }
+    .nav-options .nav-ul{
+        display: none;
+       
+    }
+    .bars{
+        display: block;
+        font-size: 25x;
+        font-weight: 400;
+        margin-right: 20px;
+    }
+
+    /* banner content responsive */
+
+    .header-content{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .header-content-1{
+        width:100% ;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+    }
+    .header-img{
+        width: 100%;
+        height: 500px;
+        /* border: 1px solid red; */
+    }
+    
+    .card-img{
+        width: 140px;
+        height: 80px;
+    }
+    .card-img-2{
+        
+        width: 140px;
+        height: 80px;
+        margin-left: 200px;
+      
+        /* margin-right: 0px; */
+    }
+
+    .primary-btn, .secondery-btn{
+        width:150px;
+        height: auto;
+        font-size: 12px;
+        padding: 10px 5px;
+       
+        
+    }
+   
+    .header-content-1 h1{
+        font-size: 2rem;
+        font-weight: 900;
+        /* border: 1px solid red; */
+        width: 300px;
+        height: 170px;
+        line-height: 50px;
+        margin-top: -2px;
+        margin-bottom: 20px;
+    }
+    .header-content-1 p{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 22px;
+        color: rgba(255, 255, 255, 0.5);
+       
+        width: 250px;
+        height: 100px;
+        /* border: 1px solid red; */
+        margin-top: -2px;
+    }
+
+    /* habit list responsive */
+
+    .change-your-habit{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1000px;
+        /* border: 1px solid red; */
+     }
+     .habit-details{
+         /* border: 1px solid red; */
+     }
+     .habit-list{
+         display: flex;
+         flex-direction: column;
+         /* border: 1px solid red; */
+     
+     }
+     .skill{
+         /* border: 1px solid red; */
+         margin-top: -20px;
+     }
+     .habit-details h1{
+         font-size: 1.5rem;
+         font-weight: 900;
+         color: rgb(255, 255, 255);
+     
+     
+     }
+     .habit-details p{
+         font-size: 12px;
+         padding: 10px 50px;
+         text-align: center;
+         line-height: 16px;
+     }
+     .skill p{
+         font-size: 12px;
+         width: 200px ;
+         /* border: 1px solid red; */
+     }
+
+     /* run extra responsive */
+
+     .run-extra{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+        margin-top: 400px;
+    }
+    .run-content{
+        width: 65%;
+        /* border: 1px solid red; */
+        
+    }
+    .run-content h1{
+        font-size: 1.5rem;
+        /* margin-left: -10px; */
+    }
+    .run-content p{
+        width: 120%;
+        font-size: 12px;
+        /* border: 1px solid red; */
+        /* margin-left: -10px; */
+    }
+    .run-images{
+        width: 50%;
+        /* height: 50%; */
+        /* border: 1px solid red; */
+        /* margin-left: 30px; */
+        
+        
+    }
+    .run{
+        width: 150%;
+        height: 80%;
+        margin-left: 180px;
+        object-fit:cover;
+        margin-bottom: 20px;
+        
+    }
+    .primary-btn-run{
+        width: 100%;
+    }
+
+    /* bmi section responsive */
+
+    .bmi-section{
+        width: 80%;
+    }
+
+    /* our plan section responsive */
+
+    .our-plan-section-pricing{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        /* border: 1px solid red; */
+    }
+    .pricing-cards{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+    }
+    .pricing-cards-1,.pricing-cards-2,.pricing-cards-3{
+        /* border: 1px solid red; */
+        margin-left: 15px;
+    }
+
+    /* bmi contant section responsive */
+
+    .bmi-calculation{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+    }
+
+    .mbi-calculator-chart{
+        margin-left: 30px;
+        /* margin-right:50px ; */
+        width: 90%;
+        /* border: 1px solid red;  */
+    }
+    .bmi-items-container{
+        width: 170%;
+        margin-left: -50px;
+        grid-row-gap:    20px;
+        /* grid-column-gap: 50px; */
+        /* border: 1px solid red;  */
+    }
+    .bmi-items{
+        width: 80%;
+        
+    }
+    #bmi-items-5{
+        width: 90%;
+    }
+    .bmi-items-container{
+        display: grid;
+        grid-template-columns: repeat( 2 , 1fr);
+        grid-row-gap:    10px;
+        grid-column-gap: 30px;
+        /* border: 1px solid red; */
+        width: 100%;
+        /* position: static; */
+        
+    }
+    .bmi-contain{
+        width: 180%;
+        margin-top: 30px;
+        margin-left: -50px;
+        /* border: 1px solid red; */
+        margin-bottom: 20px;
+    }
+    .primary-btn-bmi{
+        width: 120%;
+        margin-left: -50px;
+        margin-bottom: 30px;
+    }
+    .sex-selact{
+        margin-left: 30px;
+    }
+    .sex-selact-2{
+        margin-left: 30px;
+    }
+    /* meet our teem section responsive */
+
+    .meet-our-team{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+    }
+    .meet-details{
+        width: 100%;
+    }
+    .meet-details h1{
+        font-size: 2rem;
+        /* width: 100%;
+        margin: 0 auto; */
+    
+    }
+    .meet-details p{
+        font-size: 14px;
+        /* width: 60%; */
+        /* border: 1px solid red; */
+         text-align: center;
+         line-height: 24px;
+    }
+    .trainer-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* footer responsive */
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+    }
+    .footer-log-details{
+        width: 90%;
+        /* border: 1px solid red; */
+        margin-left: -10px;
+    }
+    .get-started{
+        display: flex;
+        flex-direction: column;
+        margin-left: -10px;
+    }
+    .copy-right p{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .nav-options .nav-ul{
+        display: none;
+
+    }
+    .bars{
+        display: block;
+    }
+}
